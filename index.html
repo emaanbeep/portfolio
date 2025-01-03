@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">Emaan Qasim</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:emaanqasim22@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I am Emaan Qasim.</h2>
+                <p>This is my personal portfolio. Currently, I am a student at Air University, Islamabad Campus. My current field is Bachelor's in Information Technology. I am in my first semester. This is a project for my course: AICT.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshots">
+                <img src="mee.jpg" alt="Emaan" style="width: 350px; height: 350px; object-fit: cover;">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                As a first-semester student pursuing a Bachelor's degree in Information Technology, I am building a strong foundation in core IT concepts and practical skills. My coursework has introduced me to programming languages such as Python and C++, where I have developed an understanding of algorithms, problem-solving, and debugging. I am also gaining hands-on experience with web development technologies, including HTML, CSS, and JavaScript. Additionally, I have a growing interest in databases, networking, and software development practices, which I look forward to exploring further in the coming semesters. I am eager to continue expanding my technical skills and knowledge as I progress in my studies.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="HTML LOGO.png" alt="HTML Logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="CSS-Logo-2011.png" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="JavaScript-Logo.png" alt="JavaScript Logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="Node.js_logo.svg.png" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <div class="cell">
+                    <img src="React-icon.svg.png" alt="React">
+                    <span>React.js</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+           <div class="group"></div>
+           <div class="text">
+            
+            If you'd like to get in touch, feel free to reach out via email or connect with me on my social media profiles. Whether you have questions, suggestions, or collaboration opportunities, I'm always open to meaningful conversations. You can also explore my work on GitHub or connect professionally on LinkedIn. Let's create something amazing together!
+
+           </div>
+          <form>
+            <label for="name">Name</label>
+             <input type="text" id="name">
+
+             <label for="email">Email</label>
+             <input type="email" id="email">
+
+             <label for="message">Message</label>
+             ,<textarea id="message" id=""></textarea>
+             <button type="submit">Send Message.</button>
+          </form>
+        </section>
+    </main>
+
+    <style>
+        .skills-section .cells .cell img {
+            max-width: 80px; /* Adjust the size as needed */
+            max-height: 80px; /* Ensure they are proportional */
+            width: auto;
+            height: auto;
+            object-fit: contain; /* Maintains the aspect ratio */
+        }
+    </style>
+</body>
+</html>
